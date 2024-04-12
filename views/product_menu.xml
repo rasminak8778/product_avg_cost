@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+<!-- product menu for   -->
+    <menuitem id="product_menu_root"
+              name="Products Management"
+    />
+    <menuitem id="product_menu_main"
+              name="Products Details"
+              parent="product_menu_root"
+    />
+<!--    <menuitem id="product_menu_second"-->
+<!--              name="Products previous"-->
+<!--              parent="product_menu_main"-->
+<!--              action="prod_purchase_record"-->
+<!--    />-->
+
+    <menuitem id="product_menu_first"
+              name="Products"
+              parent="product_menu_main"
+              action="product_template_new_action"
+
+    />
+</odoo>
